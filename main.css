@@ -165,3 +165,7 @@ body{
   hr{
       width: 50%;
   }
+  @font-face {
+      font-family: Valeria-Grunge;
+      src: url(ValeriaBoldGrunge.ttf);
+  }
