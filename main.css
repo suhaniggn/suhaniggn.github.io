@@ -2,6 +2,7 @@ h1{
     font-size: 75px;
     color: #111111;
     color: #BE93C5;
+    font-family: myFirstFont;
 }
 body{
     background-image: linear-gradient(to bottom right, #BE93C5, #7BC6CC);
@@ -166,6 +167,6 @@ body{
       width: 50%;
   }
   @font-face {
-      font-family: Valeria-Grunge;
-      src: local(ValeriaBoldGrunge.ttf);
+      font-family: myFirstFont;
+      src: url(ValeriaBoldGrunge.woff);
   }
